@@ -3,7 +3,7 @@ import style from './Card.module.css'
 import Information from '../Information/'
 import Button from '../Button'
 
-export default function Card({avatar, name, bio, email, phone, githubUrl, linkedinUrl, twitterUrl}) {
+export default function Card({avatar, name, bio, email, phone, githubUrl, linkedinUrl, instagramUrl}) {
   return (
     <div className={style.container}>
       <img src={avatar} alt={name} className={style.profileImg}/>
@@ -13,7 +13,7 @@ export default function Card({avatar, name, bio, email, phone, githubUrl, linked
       <Information info={phone} verify={true}/>
       <Button link={githubUrl} content='GitHub'/>
       <Button link={linkedinUrl} content='Linkedin'/>
-      <Button link={twitterUrl} content='Twitter'/>
+      <Button link={instagramUrl} content='Instagram' />
     </div>
   )
 }

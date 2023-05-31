@@ -3,7 +3,7 @@ import style from './Button.module.css'
 
 export default function Button(props) {
   return (
-    <a href={props.link} target="_blank" rel="external" className={style.button}>
+    <a href={props.link} target="_blank" rel="external" className={style.button} aria-disabled='true'>
       {props.content}
     </a>
   )

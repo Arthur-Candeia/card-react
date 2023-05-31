@@ -8,10 +8,10 @@ export default function App() {
       name= 'Arthur Candeia'
       bio= 'Desenvolvedor Full-Stack em formação'
       email= 'email@email.com'
-      phone= '(XX) 123456789'
+      phone= '(00) 123456789'
       githubUrl= 'https://github.com/arthur-candeia'
-      linkedinUrl= '#'
-      twitterUrl= '#'
+      linkedinUrl= 'https://www.linkedin.com/in/arthur-candeia-heher-56b836248/'
+      instagramUrl= 'https://www.instagram.com/arthur_candeia'
       />
     </>
   )
